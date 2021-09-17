@@ -1,0 +1,14 @@
+CREATE TABLE MOVIES (
+  id INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  hero TEXT not null,
+  heroine TEXT NOT NULL,
+  director text not null,
+  year of release number not null
+);
+INSERT INTO movies VALUES (1, 'Titanic', 'Leonardo', 'Kate','Nolan','1997');
+INSERT INTO movies VALUES (2, 'Interstellar', 'Josh', 'Emma','Nolan','2013');
+INSERT INTO movies VALUES (3, 'Speed', 'Jill', 'Jane','Chirstopher','2016');
+INSERT INTO movies VALUES (4, 'Spiderman', 'Peter', 'May','Marvel','2020');
+
+SELECT name,heroine FROM movies WHERE hero = 'Josh';
